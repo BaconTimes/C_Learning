@@ -80,6 +80,7 @@ array_2D reverseArray_2D(array_2D * o_o){
             (*(*(tmp_p->p_q + j) + i)) = (*(*(o_o->p_q + i) +j));
         }
     }
+    outPutArray_2D(tmp_p);
     return tmp_s;
 }
 
