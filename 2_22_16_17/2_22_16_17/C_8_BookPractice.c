@@ -203,6 +203,7 @@ void c8p9reversSq(){
     array_2D re_arr = reverseArray_2D(ori_arr);
     freeArray_2D(ori_arr);
     outPutArray_2D(&re_arr);
+    freeArray_2D(&re_arr);
 }
 
 char * copyStringFromIndx(char const * str_p, int fromIndex){

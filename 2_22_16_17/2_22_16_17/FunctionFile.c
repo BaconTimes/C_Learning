@@ -71,7 +71,7 @@ void freeArray_2D(array_2D * o_O){
     freeArray(o_O->p_q, o_O->row);
 }
 
-array_2D reverseArray_2D(array_2D * o_o){
+array_2D * reverseArray_2D(array_2D * o_o){
     array_2D tmp_s = {.row = o_o->column,.column = o_o->row};
     array_2D * tmp_p = &tmp_s;
     createArray_2D(tmp_p);
@@ -80,8 +80,7 @@ array_2D reverseArray_2D(array_2D * o_o){
             (*(*(tmp_p->p_q + j) + i)) = (*(*(o_o->p_q + i) +j));
         }
     }
-    outPutArray_2D(tmp_p);
-    return tmp_s;
+    return tmp_p;
 }
 
 void outPutArray_2D(array_2D * o_o){

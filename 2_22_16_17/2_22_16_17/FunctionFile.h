@@ -48,6 +48,6 @@ void assignArray_2D(array_2D * O_o, int * p, int totalCount);
 
 void outPutArray_2D(array_2D * o_o);
 
-array_2D reverseArray_2D(array_2D * o_o);
+array_2D * reverseArray_2D(array_2D * o_o);
 
 #endif /* FunctionFile_h */
