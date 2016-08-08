@@ -17,7 +17,7 @@
 #include <string.h>
 
 int main(int argc, const char * argv[]) {
-    c8p9reversSq();
+    c8p11tenStringCompare();
     return 0;
 }
 

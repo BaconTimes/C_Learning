@@ -206,6 +206,13 @@ void c8p9reversSq(){
     freeArray_2D(&re_arr);
 }
 
+void c8p11tenStringCompare(){
+    char inputStr[] = "qwertasdfg";
+//    scanf("%s",inputStr);
+    sortString(inputStr, 10);
+    printf("%s\n", inputStr);
+}
+
 char * copyStringFromIndx(char const * str_p, int fromIndex){
     int copyLen = (int)strlen(str_p) - fromIndex;
     char * copiedStr_p = (char *)malloc(sizeof(char) * copyLen);

@@ -106,3 +106,15 @@ void freeArray(int ** p_q, int row){
     }
     free(p_q);
 }
+
+void sortString(char * str_p, int size){
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++) {
+            if (str_p[j] > str_p[j + 1]) {
+                str_p[j] = (str_p[j])^(str_p[j+1]);
+                str_p[j+1] = (str_p[j])^(str_p[j+1]);
+                str_p[j] = (str_p[j])^(str_p[j+1]);
+            }
+        }
+    }
+}

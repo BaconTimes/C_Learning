@@ -19,4 +19,5 @@ void c8p6LengthOfString();
 void c8p7copyString();
 void c8p8counterString();
 void c8p9reversSq();
+void c8p11tenStringCompare();
 #endif /* C_8_BookPractice_h */
