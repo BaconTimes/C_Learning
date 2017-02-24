@@ -207,9 +207,12 @@ void c8p9reversSq(){
 }
 
 void c8p11tenStringCompare(){
-    char inputStr[] = "qwertasdfg";
+    int const chCount = 10;
+    char inputStr[chCount + 1];
+    printf("Please input a string\n");
 //    scanf("%s",inputStr);
-    sortString(inputStr, 10);
+    inputStr[chCount] = '\n';
+    sortString(inputStr, chCount);
     printf("%s\n", inputStr);
 }
 

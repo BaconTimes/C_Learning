@@ -12,12 +12,14 @@
 #include "C_8_BookPractice.h"
 #include "suddenPractice.h"
 #include "Facttail.h"
+#include "OC_new_learning.h"
 
 #include <stdio.h>
 #include <string.h>
-
+#include <math.h>
+#include <stdlib.h>
 int main(int argc, const char * argv[]) {
-    c8p11tenStringCompare();
+    OC_main_fun();
     return 0;
 }
 

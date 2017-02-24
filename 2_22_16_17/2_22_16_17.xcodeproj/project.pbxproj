@@ -11,6 +11,7 @@
 		EE2BF1641D0D8B690004C253 /* suddenPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE2BF1621D0D8B690004C253 /* suddenPractice.c */; };
 		EE50681C1D1BB40D00268BDD /* C_8_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE50681A1D1BB40D00268BDD /* C_8_BookPractice.c */; };
 		EE748EE31CC8D626000C36B2 /* C_4_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE748EE11CC8D626000C36B2 /* C_4_BookPractice.c */; };
+		EE8A80601E5A88D10038B905 /* OC_new_learning.c in Sources */ = {isa = PBXBuildFile; fileRef = EE8A805E1E5A88D10038B905 /* OC_new_learning.c */; };
 		EE8E4F8E1CDCCADE00381235 /* C_5_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE8E4F8C1CDCCADE00381235 /* C_5_BookPractice.c */; };
 		EEBCFC271CC6454E00780E0B /* FunctionFile.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBCFC251CC6454E00780E0B /* FunctionFile.c */; };
 		EEE1B4FF1CE0959F00CE5702 /* C_6_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EEE1B4FD1CE0959F00CE5702 /* C_6_BookPractice.c */; };
@@ -38,6 +39,8 @@
 		EE50681B1D1BB40D00268BDD /* C_8_BookPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_8_BookPractice.h; sourceTree = "<group>"; };
 		EE748EE11CC8D626000C36B2 /* C_4_BookPractice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C_4_BookPractice.c; sourceTree = "<group>"; };
 		EE748EE21CC8D626000C36B2 /* C_4_BookPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_4_BookPractice.h; sourceTree = "<group>"; };
+		EE8A805E1E5A88D10038B905 /* OC_new_learning.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OC_new_learning.c; sourceTree = "<group>"; };
+		EE8A805F1E5A88D10038B905 /* OC_new_learning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OC_new_learning.h; sourceTree = "<group>"; };
 		EE8E4F8C1CDCCADE00381235 /* C_5_BookPractice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C_5_BookPractice.c; sourceTree = "<group>"; };
 		EE8E4F8D1CDCCADE00381235 /* C_5_BookPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_5_BookPractice.h; sourceTree = "<group>"; };
 		EE9699D81CDD8D9300D92B9F /* myDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myDefine.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				EE748EE11CC8D626000C36B2 /* C_4_BookPractice.c */,
 				EE748EE21CC8D626000C36B2 /* C_4_BookPractice.h */,
 				EE9699D81CDD8D9300D92B9F /* myDefine.h */,
+				EE8A805E1E5A88D10038B905 /* OC_new_learning.c */,
+				EE8A805F1E5A88D10038B905 /* OC_new_learning.h */,
 			);
 			path = 2_22_16_17;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE50681C1D1BB40D00268BDD /* C_8_BookPractice.c in Sources */,
+				EE8A80601E5A88D10038B905 /* OC_new_learning.c in Sources */,
 				EEFEB0821C7AFB8E0096FA6A /* main.c in Sources */,
 				EE2BF1641D0D8B690004C253 /* suddenPractice.c in Sources */,
 				EE0232B81D51E6C800C298E5 /* Facttail.c in Sources */,
