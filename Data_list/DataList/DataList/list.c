@@ -38,8 +38,6 @@ void list_destroy(List * list) {
     return;
 }
 
-/* No operations are allowed noew, but clear the structure as precaution */
-
 /* list_ins_next */
 int list_ins_next(List *list, ListElmt *element, const void * data) {
     ListElmt * new_element;
@@ -51,7 +49,7 @@ int list_ins_next(List *list, ListElmt *element, const void * data) {
     /* Insert the element into the list. */
     new_element->data = (void*)data;
     if (element == NULL) {
-        /* Handle insertion at the end of the list. */
+        /* Handle insertion at the head of the list. */
         if (list_size(list) == 0)
             list->tail = new_element;
         new_element->next = list->head;
