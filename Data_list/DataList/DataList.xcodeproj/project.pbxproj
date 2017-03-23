@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE5E9DBF1E8375950039B3C6 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = EE5E9DBD1E8375950039B3C6 /* stack.c */; };
 		EE7E85BF1E658936000D8F6F /* clist.c in Sources */ = {isa = PBXBuildFile; fileRef = EE7E85BD1E658936000D8F6F /* clist.c */; };
 		EEF817891E5D95B60000B85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF817881E5D95B60000B85F /* main.m */; };
 		EEF817911E5D95D20000B85F /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = EEF8178F1E5D95D20000B85F /* list.c */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE5E9DBD1E8375950039B3C6 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		EE5E9DBE1E8375950039B3C6 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		EE7E85BD1E658936000D8F6F /* clist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clist.c; sourceTree = "<group>"; };
 		EE7E85BE1E658936000D8F6F /* clist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clist.h; sourceTree = "<group>"; };
 		EEF817851E5D95B60000B85F /* DataList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				EEF817881E5D95B60000B85F /* main.m */,
+				EE5E9DBD1E8375950039B3C6 /* stack.c */,
+				EE5E9DBE1E8375950039B3C6 /* stack.h */,
 				EEFE864B1E601D9E00666E8B /* frames.c */,
 				EEFE864C1E601D9E00666E8B /* frames.h */,
 				EEFE864E1E60239500666E8B /* dlist.c */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5E9DBF1E8375950039B3C6 /* stack.c in Sources */,
 				EEFE86501E60239500666E8B /* dlist.c in Sources */,
 				EEFE864D1E601D9E00666E8B /* frames.c in Sources */,
 				EEF817891E5D95B60000B85F /* main.m in Sources */,
