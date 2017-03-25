@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EE5E9DBF1E8375950039B3C6 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = EE5E9DBD1E8375950039B3C6 /* stack.c */; };
 		EE7E85BF1E658936000D8F6F /* clist.c in Sources */ = {isa = PBXBuildFile; fileRef = EE7E85BD1E658936000D8F6F /* clist.c */; };
+		EE92BC551E864BCA00B544EB /* issort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE92BC531E864BCA00B544EB /* issort.c */; };
+		EE92BC5A1E86846F00B544EB /* qksort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE92BC591E86846F00B544EB /* qksort.c */; };
 		EEF817891E5D95B60000B85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF817881E5D95B60000B85F /* main.m */; };
 		EEF817911E5D95D20000B85F /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = EEF8178F1E5D95D20000B85F /* list.c */; };
 		EEFE864D1E601D9E00666E8B /* frames.c in Sources */ = {isa = PBXBuildFile; fileRef = EEFE864B1E601D9E00666E8B /* frames.c */; };
@@ -32,6 +34,9 @@
 		EE5E9DBE1E8375950039B3C6 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		EE7E85BD1E658936000D8F6F /* clist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clist.c; sourceTree = "<group>"; };
 		EE7E85BE1E658936000D8F6F /* clist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clist.h; sourceTree = "<group>"; };
+		EE92BC531E864BCA00B544EB /* issort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = issort.c; sourceTree = "<group>"; };
+		EE92BC581E86805600B544EB /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		EE92BC591E86846F00B544EB /* qksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qksort.c; sourceTree = "<group>"; };
 		EEF817851E5D95B60000B85F /* DataList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF817881E5D95B60000B85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEF8178F1E5D95D20000B85F /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
@@ -83,6 +88,9 @@
 				EEF817901E5D95D20000B85F /* list.h */,
 				EE7E85BD1E658936000D8F6F /* clist.c */,
 				EE7E85BE1E658936000D8F6F /* clist.h */,
+				EE92BC531E864BCA00B544EB /* issort.c */,
+				EE92BC581E86805600B544EB /* sort.h */,
+				EE92BC591E86846F00B544EB /* qksort.c */,
 			);
 			path = DataList;
 			sourceTree = "<group>";
@@ -146,9 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5E9DBF1E8375950039B3C6 /* stack.c in Sources */,
+				EE92BC551E864BCA00B544EB /* issort.c in Sources */,
 				EEFE86501E60239500666E8B /* dlist.c in Sources */,
 				EEFE864D1E601D9E00666E8B /* frames.c in Sources */,
 				EEF817891E5D95B60000B85F /* main.m in Sources */,
+				EE92BC5A1E86846F00B544EB /* qksort.c in Sources */,
 				EE7E85BF1E658936000D8F6F /* clist.c in Sources */,
 				EEF817911E5D95D20000B85F /* list.c in Sources */,
 			);

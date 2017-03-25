@@ -129,3 +129,62 @@ int list_rem_next(List *list, ListElmt *element, void ** data) {
     list->size--;
     return 0;
 }
+
+void list_traversal(List *list, ListElmt *element) {
+    if (element == NULL) {
+        element = list_head(list);
+    }
+    while (element != NULL) {
+        element = list_next(element);
+    }
+}
+
+int list_reverse(List *list) {
+    if (list == NULL || list_size(list) < 2) {
+        return -1;
+    }
+    
+    ListElmt * pointElement = list->head;
+    ListElmt * preElement = NULL;
+    while (pointElement != NULL) {
+        ListElmt * nextElement = pointElement->next;
+        pointElement->next = preElement;
+        preElement = pointElement;
+        pointElement = nextElement;
+    }
+    ListElmt * tmpELement = list->head;
+    list->head = list->tail;
+    list->tail = tmpELement;
+    return 0;
+}
+
+int list_look_back(List *list, int back_index, ListElmt **element) {
+    if (back_index != 0 && back_index > list_size(list)) {
+        return -1;
+    }
+    
+    ListElmt * targetElement = list_head(list);
+    for (int i = 0; i < list_size(list) - back_index; i++) {
+        targetElement = list_next(targetElement);
+    }
+    *element = targetElement;
+    return 0;
+}
+
+int list_exist_circle(List *list) {
+    if (list_tail(list) == NULL) {
+        return 0;
+    }
+    
+    ListElmt * head = list_head(list);
+    
+    int isExist = 0;
+    while (head != NULL) {
+        if (head == list_tail(list)) {
+            isExist = 1;
+            break;
+        }
+        head = list_next(head);
+    }
+    return isExist;
+}

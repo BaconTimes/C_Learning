@@ -54,6 +54,7 @@ void list_destroy(List * list);
  @param list 链表结构体指针
  @param element 要插入节点的前一节点
  @param data 将要插入节点的数据
+ @return 如果插入元素成功则返回0, 否则返回-1
  */
 int list_ins_next(List *list, ListElmt *element, const void * data);
 
@@ -62,8 +63,32 @@ int list_ins_next(List *list, ListElmt *element, const void * data);
  @param list 链表结构体指针
  @param element 要移除的节点的前一节点
  @param data 要移除的节点的数据的指针的指针
+ @return 如果移除元素成功则返回0, 否则返回-1
  */
 int list_rem_next(List *list, ListElmt *element, void ** data);
+
+/**
+ @brief 从element开始遍历链表
+ @param list 链表结构体指针
+ @param element 开始遍历链表的节点，包含此节点
+ */
+void list_traversal(List *list, ListElmt *element);
+
+/**
+ @brief 翻转链表
+ @param list 链表结构体指针
+ */
+int list_reverse(List *list);
+
+
+int list_look_back(List *list, int back_index, ListElmt **element);
+
+/**
+ @brief 检测单向链表中是否又环
+ @param list 链表结构体指针
+ @return 如果有，返回1，没有返回0
+ */
+int list_exist_circle(List *list);
 
 #define list_size(list) ((list)->size)
 
