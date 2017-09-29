@@ -12,16 +12,15 @@
 
 #import "list.h"
 #import "sort.h"
+#include "directls.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int comapre_int(const void *key1, const void *key2);
-        int arr[] = {2,1,3};
-        issort(arr, sizeof(arr) / sizeof(int), sizeof(int) , comapre_int);
-        
-        for (int i = 0; i < (sizeof(arr) / sizeof(int)); i++) {
-            printf("%d   ", arr[i]);
+        int a[10], i;
+        for (i = 1; i <= 10; i++) {
+            a[i] = 0;
         }
+        printf("%p, %p\n", &a[10], &i);
     }
     return 0;
 }
@@ -54,11 +53,6 @@ void createList() {
     printf("list_exist_circle = %d", list_exist_circle(list));
     
 }
-
-int max(int x, int y) {
-    return x > y? x : y;
-}
-
 
 void freeData(void * num) {
     free(num);

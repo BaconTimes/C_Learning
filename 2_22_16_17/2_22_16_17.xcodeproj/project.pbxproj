@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE0232B81D51E6C800C298E5 /* Facttail.c in Sources */ = {isa = PBXBuildFile; fileRef = EE0232B61D51E6C800C298E5 /* Facttail.c */; };
 		EE2BF1641D0D8B690004C253 /* suddenPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE2BF1621D0D8B690004C253 /* suddenPractice.c */; };
+		EE4085121F03567D0093C2B3 /* block_explain.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4085101F03567D0093C2B3 /* block_explain.c */; };
 		EE50681C1D1BB40D00268BDD /* C_8_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE50681A1D1BB40D00268BDD /* C_8_BookPractice.c */; };
 		EE748EE31CC8D626000C36B2 /* C_4_BookPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = EE748EE11CC8D626000C36B2 /* C_4_BookPractice.c */; };
 		EE8A80601E5A88D10038B905 /* OC_new_learning.c in Sources */ = {isa = PBXBuildFile; fileRef = EE8A805E1E5A88D10038B905 /* OC_new_learning.c */; };
@@ -35,6 +36,8 @@
 		EE0232B71D51E6C800C298E5 /* Facttail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facttail.h; sourceTree = "<group>"; };
 		EE2BF1621D0D8B690004C253 /* suddenPractice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = suddenPractice.c; sourceTree = "<group>"; };
 		EE2BF1631D0D8B690004C253 /* suddenPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = suddenPractice.h; sourceTree = "<group>"; };
+		EE4085101F03567D0093C2B3 /* block_explain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block_explain.c; sourceTree = "<group>"; };
+		EE4085111F03567D0093C2B3 /* block_explain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_explain.h; sourceTree = "<group>"; };
 		EE50681A1D1BB40D00268BDD /* C_8_BookPractice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C_8_BookPractice.c; sourceTree = "<group>"; };
 		EE50681B1D1BB40D00268BDD /* C_8_BookPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_8_BookPractice.h; sourceTree = "<group>"; };
 		EE748EE11CC8D626000C36B2 /* C_4_BookPractice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = C_4_BookPractice.c; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				EEFEB0811C7AFB8E0096FA6A /* main.c */,
+				EE4085101F03567D0093C2B3 /* block_explain.c */,
+				EE4085111F03567D0093C2B3 /* block_explain.h */,
 				EE2BF1621D0D8B690004C253 /* suddenPractice.c */,
 				EE2BF1631D0D8B690004C253 /* suddenPractice.h */,
 				EE0232B61D51E6C800C298E5 /* Facttail.c */,
@@ -130,7 +135,7 @@
 		EEFEB0761C7AFB8E0096FA6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = iOSBacon;
 				TargetAttributes = {
 					EEFEB07D1C7AFB8E0096FA6A = {
@@ -167,6 +172,7 @@
 				EE0232B81D51E6C800C298E5 /* Facttail.c in Sources */,
 				EEBCFC271CC6454E00780E0B /* FunctionFile.c in Sources */,
 				EE748EE31CC8D626000C36B2 /* C_4_BookPractice.c in Sources */,
+				EE4085121F03567D0093C2B3 /* block_explain.c in Sources */,
 				EE8E4F8E1CDCCADE00381235 /* C_5_BookPractice.c in Sources */,
 				EEE1B4FF1CE0959F00CE5702 /* C_6_BookPractice.c in Sources */,
 			);
@@ -188,8 +194,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -231,8 +239,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";

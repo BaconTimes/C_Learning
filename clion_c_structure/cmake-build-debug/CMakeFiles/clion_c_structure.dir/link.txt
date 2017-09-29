@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/clion_c_structure.dir/main.c.o CMakeFiles/clion_c_structure.dir/list.c.o  -o clion_c_structure 

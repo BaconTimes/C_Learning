@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/list.c
+list.h
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/list.h
+
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/list.h
+stdlib.h
+-
+
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/main.c
+stdio.h
+-
+

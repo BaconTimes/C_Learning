@@ -1,0 +1,3 @@
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/cmake-build-debug/CMakeFiles/clion_c_structure.dir

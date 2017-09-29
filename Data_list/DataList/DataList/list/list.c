@@ -58,7 +58,7 @@ int list_ins_next(List *list, ListElmt *element, const void * data) {
     if (element == NULL) {
         /* Handle insertion at the head of the list. */
         
-        /* 如果表的size为0，表示为空表，将表尾指向该节点 */
+        /* 如果表的size为0，表示为空表，将表尾指向该节点，即当表里面只有一个节点时，list的头指针和尾指针都指向了该节点 */
         if (list_size(list) == 0)
             list->tail = new_element;
         // 让新节点指向下一个节点（向表头插入新节点，现有表头成为第二个节点）
