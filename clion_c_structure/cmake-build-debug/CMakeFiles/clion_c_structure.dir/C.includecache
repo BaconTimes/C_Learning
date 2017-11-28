@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/list.c
+stdlib.h
+-
+string.h
+-
 list.h
 /Users/iosbacon/Desktop/learnings/C_Learning/clion_c_structure/list.h
 
