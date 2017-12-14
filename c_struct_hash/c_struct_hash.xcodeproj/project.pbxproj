@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE150EA91FD7E6C50036DB06 /* directls.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EA71FD7E6C50036DB06 /* directls.c */; };
+		EE150EAC1FD7EC4A0036DB06 /* mgsort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EAA1FD7EC4A0036DB06 /* mgsort.c */; };
+		EE150EAE1FD80B9E0036DB06 /* ctsort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EAD1FD80B9E0036DB06 /* ctsort.c */; };
+		EE150EB01FD8D9F80036DB06 /* rxsort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EAF1FD8D9F80036DB06 /* rxsort.c */; };
+		EE150EB31FD8E2B10036DB06 /* bisearch.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EB21FD8E2B10036DB06 /* bisearch.c */; };
+		EE150EB51FD920CF0036DB06 /* interpol.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EB41FD920CF0036DB06 /* interpol.c */; };
+		EE150EB71FD9396A0036DB06 /* lsqe.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EB61FD9396A0036DB06 /* lsqe.c */; };
+		EE150EB91FDA388F0036DB06 /* root.c in Sources */ = {isa = PBXBuildFile; fileRef = EE150EB81FDA388F0036DB06 /* root.c */; };
+		EE2B974C1FD56E4F0046416E /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE2B974A1FD56E4F0046416E /* sort.c */; };
+		EE2B974F1FD62F190046416E /* qksort.c in Sources */ = {isa = PBXBuildFile; fileRef = EE2B974D1FD62F190046416E /* qksort.c */; };
+		EE2B97521FD648130046416E /* tools.c in Sources */ = {isa = PBXBuildFile; fileRef = EE2B97501FD648120046416E /* tools.c */; };
 		EE4E07B41FCBBDD30055D8D4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07B31FCBBDD30055D8D4 /* main.c */; };
 		EE4E07BC1FCC1A220055D8D4 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07BA1FCC1A220055D8D4 /* list.c */; };
 		EE4E07BF1FCC288C0055D8D4 /* chtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07BD1FCC288C0055D8D4 /* chtbl.c */; };
 		EE4E07C81FCD5BBD0055D8D4 /* ohtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07C61FCD5BBD0055D8D4 /* ohtbl.c */; };
 		EE4E07CB1FCD710E0055D8D4 /* bitree.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07C91FCD710E0055D8D4 /* bitree.c */; };
+		EE4E07CE1FCE53570055D8D4 /* traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E07CC1FCE53570055D8D4 /* traverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +39,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE150EA71FD7E6C50036DB06 /* directls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = directls.c; sourceTree = "<group>"; };
+		EE150EA81FD7E6C50036DB06 /* directls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directls.h; sourceTree = "<group>"; };
+		EE150EAA1FD7EC4A0036DB06 /* mgsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mgsort.c; sourceTree = "<group>"; };
+		EE150EAD1FD80B9E0036DB06 /* ctsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctsort.c; sourceTree = "<group>"; };
+		EE150EAF1FD8D9F80036DB06 /* rxsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rxsort.c; sourceTree = "<group>"; };
+		EE150EB11FD8E29D0036DB06 /* search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		EE150EB21FD8E2B10036DB06 /* bisearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bisearch.c; sourceTree = "<group>"; };
+		EE150EB41FD920CF0036DB06 /* interpol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = interpol.c; sourceTree = "<group>"; };
+		EE150EB61FD9396A0036DB06 /* lsqe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lsqe.c; sourceTree = "<group>"; };
+		EE150EB81FDA388F0036DB06 /* root.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = root.c; sourceTree = "<group>"; };
+		EE2B974A1FD56E4F0046416E /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		EE2B974B1FD56E4F0046416E /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		EE2B974D1FD62F190046416E /* qksort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = qksort.c; sourceTree = "<group>"; };
+		EE2B97501FD648120046416E /* tools.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tools.c; sourceTree = "<group>"; };
+		EE2B97511FD648130046416E /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
 		EE4E07B01FCBBDD30055D8D4 /* c_struct_hash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_struct_hash; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4E07B31FCBBDD30055D8D4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EE4E07BA1FCC1A220055D8D4 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
@@ -37,6 +64,8 @@
 		EE4E07C71FCD5BBD0055D8D4 /* ohtbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ohtbl.h; sourceTree = "<group>"; };
 		EE4E07C91FCD710E0055D8D4 /* bitree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitree.c; sourceTree = "<group>"; };
 		EE4E07CA1FCD710E0055D8D4 /* bitree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitree.h; sourceTree = "<group>"; };
+		EE4E07CC1FCE53570055D8D4 /* traverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = traverse.c; sourceTree = "<group>"; };
+		EE4E07CD1FCE53570055D8D4 /* traverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = traverse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +99,19 @@
 			isa = PBXGroup;
 			children = (
 				EE4E07B31FCBBDD30055D8D4 /* main.c */,
+				EE150EB11FD8E29D0036DB06 /* search.h */,
+				EE150EB21FD8E2B10036DB06 /* bisearch.c */,
+				EE150EB41FD920CF0036DB06 /* interpol.c */,
+				EE150EB61FD9396A0036DB06 /* lsqe.c */,
+				EE150EB81FDA388F0036DB06 /* root.c */,
+				EE2B974A1FD56E4F0046416E /* sort.c */,
+				EE2B974B1FD56E4F0046416E /* sort.h */,
+				EE2B974D1FD62F190046416E /* qksort.c */,
+				EE150EAA1FD7EC4A0036DB06 /* mgsort.c */,
+				EE150EAD1FD80B9E0036DB06 /* ctsort.c */,
+				EE150EAF1FD8D9F80036DB06 /* rxsort.c */,
+				EE2B97501FD648120046416E /* tools.c */,
+				EE2B97511FD648130046416E /* tools.h */,
 				EE4E07BA1FCC1A220055D8D4 /* list.c */,
 				EE4E07BB1FCC1A220055D8D4 /* list.h */,
 				EE4E07BD1FCC288C0055D8D4 /* chtbl.c */,
@@ -78,6 +120,10 @@
 				EE4E07C71FCD5BBD0055D8D4 /* ohtbl.h */,
 				EE4E07C91FCD710E0055D8D4 /* bitree.c */,
 				EE4E07CA1FCD710E0055D8D4 /* bitree.h */,
+				EE4E07CC1FCE53570055D8D4 /* traverse.c */,
+				EE4E07CD1FCE53570055D8D4 /* traverse.h */,
+				EE150EA71FD7E6C50036DB06 /* directls.c */,
+				EE150EA81FD7E6C50036DB06 /* directls.h */,
 			);
 			path = c_struct_hash;
 			sourceTree = "<group>";
@@ -139,11 +185,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE150EB91FDA388F0036DB06 /* root.c in Sources */,
+				EE150EB01FD8D9F80036DB06 /* rxsort.c in Sources */,
+				EE150EAE1FD80B9E0036DB06 /* ctsort.c in Sources */,
 				EE4E07BF1FCC288C0055D8D4 /* chtbl.c in Sources */,
 				EE4E07C81FCD5BBD0055D8D4 /* ohtbl.c in Sources */,
+				EE150EB31FD8E2B10036DB06 /* bisearch.c in Sources */,
+				EE2B974C1FD56E4F0046416E /* sort.c in Sources */,
+				EE150EAC1FD7EC4A0036DB06 /* mgsort.c in Sources */,
 				EE4E07B41FCBBDD30055D8D4 /* main.c in Sources */,
 				EE4E07BC1FCC1A220055D8D4 /* list.c in Sources */,
+				EE2B974F1FD62F190046416E /* qksort.c in Sources */,
+				EE2B97521FD648130046416E /* tools.c in Sources */,
+				EE150EA91FD7E6C50036DB06 /* directls.c in Sources */,
+				EE150EB71FD9396A0036DB06 /* lsqe.c in Sources */,
 				EE4E07CB1FCD710E0055D8D4 /* bitree.c in Sources */,
+				EE4E07CE1FCE53570055D8D4 /* traverse.c in Sources */,
+				EE150EB51FD920CF0036DB06 /* interpol.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
